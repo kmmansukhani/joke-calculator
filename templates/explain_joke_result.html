@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Explain a Joke</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/explain_joke_result_style.css') }}">
+</head>
+<body>
+    <h1>Joke Explanation</h1>
+    <p>Here's the explanation for the joke you entered:</p>
+    <p>{{ explanation }}</p>
+    <a class="button" href="/">Back to home</a>
+</body>
+</html>

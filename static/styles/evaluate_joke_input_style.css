@@ -1,0 +1,60 @@
+/* Add a color scheme */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Use fonts and typography */
+h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Add layout and spacing */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the text areas */
+textarea {
+    width: 500px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+}
+
+/* Style the button */
+input[type="submit"] {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border: none;
+}
+.example-text {
+    font-size: 0.8em;
+    color: gray;
+}

@@ -1,0 +1,43 @@
+/* Add a color scheme */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Use fonts and typography */
+h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}

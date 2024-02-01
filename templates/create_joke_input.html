@@ -1,0 +1,23 @@
+<!-- create_joke_input.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joke Creator</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/create_joke_input_style.css') }}">
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1282548956576660"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>  
+    <h1>Joke Creator</h1>
+    <form method="post" action="/create_joke_result">
+        <label for="context">Enter the context for the joke:</label><br>
+        <textarea name="context" rows="3" cols="15"></textarea><br>
+        <div class="example-text">Example: "Someone named Skip tripped."</div>
+        <br>
+        <input type="submit" value="Create Joke">
+    </form>
+</body>
+</html>

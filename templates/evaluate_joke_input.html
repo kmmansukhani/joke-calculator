@@ -1,0 +1,26 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joke Funniness Calculator</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/evaluate_joke_input_style.css') }}">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1282548956576660"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Joke Funniness Calculator</h1>
+    <form method="post" action="/evaluate_joke_result">
+        <label for="setup">Enter the setup for the joke:</label><br>
+        <textarea name="setup" rows="3" cols="10"></textarea>
+        <div class="example-text">Example: Why was the math book unhappy?</div>
+        <br>
+        <label for="punchline">Enter the punchline for the joke:</label><br>
+        <textarea name="punchline" rows="3" cols="10"></textarea>
+        <div class="example-text">Example: Because it had too many problems.</div>
+        <br>
+        <div class="button-container">
+            <input type="submit" value="Calculate Funniness" class="button">
+        </div>
+    </form>
+</body>
+</html>

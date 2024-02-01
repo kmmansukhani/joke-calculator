@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joke Rating</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/evaluate_joke_result_style.css') }}">
+</head>
+<body>
+    <h1>Joke Rating</h1>
+    <div class="result-box">
+        <p>The joke was rated as <strong>{{ rating }}</strong></p>
+        <p>Explanation: {{ explanation }}</p>
+    </div>
+    <div class="button-container">
+        <a href="/evaluate_joke" class="button">Go Back</a>
+    </div>
+</body>
+</html>
+
